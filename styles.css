@@ -1,0 +1,243 @@
+* {
+    font-family: 'Bruno Ace', cursive;
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin: 44px 0px 144px 76px;
+}
+
+nav {
+    background: #FF007F;
+    text-align: right;
+    position: relative;
+    top: -110px;
+}
+
+.link-header {
+    font-weight: 600px;
+    font-size: 24px;
+    line-height: 29.26px;
+    color: #FF007F;
+    cursor: pointer;
+    margin-right: 23px;
+}
+
+.button-header {
+    background: #FF007F;
+    border-radius: 20.5px;
+    width: 130px;
+    height: 41px;
+    border: none;
+    font-weight: 600px;
+    font-size: 18px;
+    color: #FFFFFF;
+    text-shadow: #000 2px 3px 2px;
+    cursor: pointer;
+}
+
+h1 {
+    position: relative;
+    text-align: center;
+    color: #ffffff;
+    font-family: Bruno Ace;
+    font-size: 40px;
+    top: 20px;
+    box-shadow: 5px 0 0 5px;
+    text-shadow: #000 2px 3px 2px;
+}
+
+h2 {
+    position: relative;
+    text-align: center;
+    font-family: Bruno Ace;
+    color: #FFFFFF;
+    font-size: 35px;
+    top: 25px;
+    text-shadow: #000 2px 3px 2px;
+}
+
+.img-nav {
+    position: relative;
+    left: 20px;
+    top: 20px;
+    width: 1000px;
+    height: auto;
+}
+
+.botao-wpp {
+    position: absolute;
+    width: 100px;
+    height: auto;
+    left: 60px;
+    font-size: 25px;
+    top: 214px;
+    cursor: pointer;
+}
+
+.botao-insta {
+    position: absolute;
+    width: 76px;
+    height: auto;
+    left: 72px;
+    font-size: 25px;
+    top: 314px;
+    cursor: pointer;
+}
+
+.botao-face {
+    position: absolute;
+    width: 73px;
+    height: auto;
+    left: 75px;
+    font-size: 25px;
+    top: 405px;
+    cursor: pointer;
+}
+
+section {
+    display: block;
+    position: relative;
+    text-align: center;
+    top: 20px;
+    left: 16px;
+    right: 20px;
+}
+
+.txt-section {
+    font-family: bruno ace;
+    top: -75px;
+    font-size: 50px;
+    color: #FF007F;
+}
+
+.img1-section {
+    display: inline;
+    position: relative;
+    width: 100px;
+    height: auto;
+    margin-right: 100px;
+}
+
+footer {
+    display: relative;
+    text-align: right;
+    background: #FF007F;
+    height: 200px;
+    margin-top: 200px;
+}
+
+.fachada-footer {
+    position: relative;
+    width: 500px;
+    height: auto;
+    top: -63px;
+}
+
+.localiza-botao {
+    position: relative;
+    width: 225px;
+    left: -900px;
+    top: -64px;
+}
+
+.endereço-txt {
+    position: relative;
+    left: -800px;
+    top: 100px;
+    color: #FFFFFF;
+    font-size: 25px;
+}
+
+@media screen and (max-width: 900px) {
+    .link-header {
+        display: none;
+    }
+
+    .button-header {
+        width: 116px;
+        height: 34px;
+        flex-shrink: 0;
+        font-size: 16px;
+        top: 17px;
+        margin-left: 190px;
+        margin-right: 15px;
+    }
+
+    nav {
+        width: 100%;
+        height: 50%;
+        position: absolute;
+        display: block;
+        top: 125px;
+    }
+
+    .img-nav {
+        display: block;
+        position: absolute;
+        width: 400px;
+        height: auto;
+        left: 0px;
+        top: 196px;
+    }
+
+    .txt-section {
+        top: -14px;
+        font-size: 36px;
+    }
+
+    .botao-insta {
+        width: 50px;
+        left: 175px;
+        top: 479px;
+    }
+
+    .botao-wpp {
+        width: 82px;
+        left: 60px;
+        top: 463px;
+    }
+
+    .botao-face {
+        width: 55px;
+        left: 274px;
+        top: 477px;
+    }
+
+    section {
+        display: block;
+        position: relative;
+        top: 375px;
+        width: 100%;
+        left: 0px;
+    }
+
+    footer {
+        display: block;
+        position: absolute;
+        top: 1727px;
+        height: 10%;
+        width: 100%;
+    }
+
+    .fachada-footer {
+        width: 187px;
+        top: -51px;
+    }
+
+    .localiza-botao {
+        width: 80px;
+        left: -100px;
+        top: -59px;
+    }
+
+    .endereço-txt {
+        position: absolute;
+        top: 43px;
+        left: 18px;
+        font-size: 20px;
+    }
+}
